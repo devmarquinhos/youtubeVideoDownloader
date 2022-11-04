@@ -21,4 +21,4 @@ Agora, nós temos um executável, onde basta dar dois cliques e já pode usar! V
 ***
 ## Na prática :boom:
 
-[Colocar video.mp4 aqui]
+https://user-images.githubusercontent.com/50125329/200055623-b8d42c1a-4ae1-4c40-8e16-acc5116c0b62.mp4
