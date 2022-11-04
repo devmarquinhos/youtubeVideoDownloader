@@ -16,7 +16,7 @@ O código pergunta ao usuário qual a URL do vídeo ele deseja baixar e depois p
 
 Antes precisávamos executar o código, o que não era tão acessível a todos, já que nem todos sabem programar e executar uma linha de comando.
 
-Agora, nós temos um executável, onde basta dar dois cliques e já pode usar! Você não precisa ter o Python instalado para usar o executável. Você pode encontrá-lo [aqui](dist)
+Agora, nós temos um executável, onde basta dar dois cliques e já pode usar! Você não precisa ter o Python instalado para usar o executável. Você pode encontrá-lo [aqui](releases)
 
 ***
 ## Na prática :boom:
