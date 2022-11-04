@@ -3,17 +3,23 @@ from pytube import YouTube
 import os
 from time import sleep
 
+
 # Função para verificar se o caminho onde será salvo o vídeo existe. Caso não exista, será criado.
 def verificaCaminho(caminho):
     existeCaminho = os.path.exists(caminho)
-    if existeCaminho != True:
+    if not existeCaminho:
         os.mkdir(caminho)
+
+os.system('cls')
+print("="*30)
+print("Youtube Downloader | v1.0")
+print("="*30)
 
 # Receber URL do vídeo e recebendo o caminho para salvar o arquivo baixado
 link = input("Cole aqui a URL do vídeo que deseja baixar: ")
 caminho = input('Cole aqui o diretório de onde deseja salvar: ')
 if caminho == "":
-    caminho = './videos'
+    caminho = 'videos'
 verificaCaminho(caminho)
 
 # Coletando dados da URL inserida
