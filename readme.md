@@ -18,6 +18,10 @@ Antes precisávamos executar o código, o que não era tão acessível a todos, 
 
 Agora, nós temos um executável, onde basta dar dois cliques e já pode usar! Você não precisa ter o Python instalado para usar o executável. Você pode encontrá-lo [aqui](https://github.com/marquin-dev/youtubeVideoDownloader/releases/tag/1.0).
 
+## Dependência do projeto
+
+- pytube
+
 ***
 ## Na prática :boom:
 
