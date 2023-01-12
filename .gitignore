@@ -1,3 +1,7 @@
 youtubeVideoDownloader/
+youtubeVideoDownloader/Include
+youtubeVideoDownloader/Lib\site-packages
+youtubeVideoDownloader/Scripts
+youtubeVideoDownloader/pyenv.cfg
 videos/
 dist/videos/
