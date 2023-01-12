@@ -16,9 +16,13 @@ O código pergunta ao usuário qual a URL do vídeo ele deseja baixar e depois p
 
 Antes precisávamos executar o código, o que não era tão acessível a todos, já que nem todos sabem programar e executar uma linha de comando.
 
-Agora, nós temos um executável, onde basta dar dois cliques e já pode usar! Você não precisa ter o Python instalado para usar o executável.
+Agora, nós temos um executável, onde basta dar dois cliques e já pode usar! Você não precisa ter o Python instalado para usar o executável. Você pode encontrá-lo [aqui](https://github.com/marquin-dev/youtubeVideoDownloader/releases/tag/1.0).
+
+## Dependência do projeto
+
+- pytube
 
 ***
 ## Na prática :boom:
 
-[Colocar video.mp4 aqui]
+https://user-images.githubusercontent.com/50125329/200055623-b8d42c1a-4ae1-4c40-8e16-acc5116c0b62.mp4
