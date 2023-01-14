@@ -2,15 +2,6 @@
 from pytube import YouTube
 import os
 from time import sleep
-import pyfiglet
-
-# Função para criar o título
-def titleAscii():
-    titleFinal = pyfiglet.figlet_format("YouTube Downloader", font = "big")
-    os.system('cls')
-    print("="*50)
-    print(titleFinal)
-    print("="*50)
 
 # Função para verificar se o caminho onde será salvo o vídeo existe. Caso não exista, será criado.
 def verificaCaminho(caminho):
@@ -26,7 +17,9 @@ def openDir(caminho):
     os.startfile(caminho)
 
 # Imprimindo o título
-titleAscii()
+print("="*50)
+print("Youtube Downloader | v1.1")
+print("="*50)
 
 # Receber URL do vídeo e recebendo o caminho para salvar o arquivo baixado
 link = input("Cole aqui a URL do vídeo que deseja baixar: ")

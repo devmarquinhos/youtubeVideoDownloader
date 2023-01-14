@@ -5,3 +5,4 @@ youtubeVideoDownloader/Scripts/
 youtubeVideoDownloader/pyenv.cfg
 videos/
 dist/videos/
+requirementsPip.txt
