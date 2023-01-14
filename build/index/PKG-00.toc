@@ -1,6 +1,5 @@
 ('C:\\Users\\Macos '
- 'Emanuel\\Documents\\Estudos\\Python\\YoutubeDownloader\\build\\index\\Youtube '
- 'Downloader.pkg',
+ 'Emanuel\\Documents\\Estudos\\Python\\YoutubeDownloader\\build\\index\\index.pkg',
  {'BINARY': 1,
   'DATA': 1,
   'EXECUTABLE': 1,
@@ -35,75 +34,71 @@
    'PYMODULE'),
   ('pyiboot01_bootstrap',
    'C:\\Users\\Macos '
-   'Emanuel\\Documents\\Estudos\\Python\\YoutubeDownloader\\youtubeVideoDownloader\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'Emanuel\\Documents\\Estudos\\Python\\YoutubeDownloader\\venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
    'PYSOURCE'),
   ('pyi_rth_inspect',
    'C:\\Users\\Macos '
-   'Emanuel\\Documents\\Estudos\\Python\\YoutubeDownloader\\youtubeVideoDownloader\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
-   'PYSOURCE'),
-  ('pyi_rth_subprocess',
-   'C:\\Users\\Macos '
-   'Emanuel\\Documents\\Estudos\\Python\\YoutubeDownloader\\youtubeVideoDownloader\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_subprocess.py',
+   'Emanuel\\Documents\\Estudos\\Python\\YoutubeDownloader\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('index',
    'C:\\Users\\Macos '
    'Emanuel\\Documents\\Estudos\\Python\\YoutubeDownloader\\index.py',
    'PYSOURCE'),
+  ('python311.dll',
+   'C:\\Users\\Macos '
+   'Emanuel\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll',
+   'BINARY'),
   ('VCRUNTIME140.dll',
    'C:\\Users\\Macos '
-   'Emanuel\\AppData\\Local\\Programs\\Python\\Python310\\VCRUNTIME140.dll',
+   'Emanuel\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
    'BINARY'),
-  ('python310.dll',
+  ('_decimal.pyd',
    'C:\\Users\\Macos '
-   'Emanuel\\AppData\\Local\\Programs\\Python\\Python310\\python310.dll',
-   'BINARY'),
-  ('select',
-   'C:\\Users\\Macos '
-   'Emanuel\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\select.pyd',
+   'Emanuel\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_decimal.pyd',
    'EXTENSION'),
-  ('_decimal',
+  ('_hashlib.pyd',
    'C:\\Users\\Macos '
-   'Emanuel\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\_decimal.pyd',
+   'Emanuel\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_hashlib.pyd',
    'EXTENSION'),
-  ('_hashlib',
+  ('_lzma.pyd',
    'C:\\Users\\Macos '
-   'Emanuel\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\_hashlib.pyd',
+   'Emanuel\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_lzma.pyd',
    'EXTENSION'),
-  ('_socket',
+  ('_bz2.pyd',
    'C:\\Users\\Macos '
-   'Emanuel\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\_socket.pyd',
+   'Emanuel\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_bz2.pyd',
    'EXTENSION'),
-  ('_lzma',
+  ('select.pyd',
    'C:\\Users\\Macos '
-   'Emanuel\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\_lzma.pyd',
+   'Emanuel\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\select.pyd',
    'EXTENSION'),
-  ('_bz2',
+  ('_socket.pyd',
    'C:\\Users\\Macos '
-   'Emanuel\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\_bz2.pyd',
+   'Emanuel\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_socket.pyd',
    'EXTENSION'),
-  ('unicodedata',
+  ('_ssl.pyd',
    'C:\\Users\\Macos '
-   'Emanuel\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\unicodedata.pyd',
+   'Emanuel\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_ssl.pyd',
    'EXTENSION'),
-  ('_ssl',
+  ('unicodedata.pyd',
    'C:\\Users\\Macos '
-   'Emanuel\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\_ssl.pyd',
+   'Emanuel\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\unicodedata.pyd',
    'EXTENSION'),
-  ('_elementtree',
+  ('_elementtree.pyd',
    'C:\\Users\\Macos '
-   'Emanuel\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\_elementtree.pyd',
+   'Emanuel\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\_elementtree.pyd',
    'EXTENSION'),
-  ('pyexpat',
+  ('pyexpat.pyd',
    'C:\\Users\\Macos '
-   'Emanuel\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\pyexpat.pyd',
+   'Emanuel\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\pyexpat.pyd',
    'EXTENSION'),
   ('libcrypto-1_1.dll',
    'C:\\Users\\Macos '
-   'Emanuel\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\libcrypto-1_1.dll',
+   'Emanuel\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libcrypto-1_1.dll',
    'BINARY'),
   ('libssl-1_1.dll',
    'C:\\Users\\Macos '
-   'Emanuel\\AppData\\Local\\Programs\\Python\\Python310\\DLLs\\libssl-1_1.dll',
+   'Emanuel\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\libssl-1_1.dll',
    'BINARY'),
   ('base_library.zip',
    'C:\\Users\\Macos '
