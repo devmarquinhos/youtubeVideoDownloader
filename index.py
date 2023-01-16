@@ -2,6 +2,7 @@
 from pytube import YouTube
 import os
 from time import sleep
+from tkinter import *
 
 # Função para verificar se o caminho onde será salvo o vídeo existe. Caso não exista, será criado.
 def verificaCaminho(caminho):
@@ -16,28 +17,42 @@ def openDir(caminho):
         sleep(1)
     os.startfile(caminho)
 
-# Imprimindo o título
-print("="*50)
-print("Youtube Downloader | v1.1")
-print("="*50)
-
+# Função para imprimir o título
+def titlePrint():
+    print("="*50)
+    print("Youtube Downloader | v1.2a")
+    print("="*50)
+    
 # Receber URL do vídeo e recebendo o caminho para salvar o arquivo baixado
-link = input("Cole aqui a URL do vídeo que deseja baixar: ")
-caminho = input('Cole aqui o diretório de onde deseja salvar: ')
-if caminho == "":
-    caminho = 'videos'
-verificaCaminho(caminho)
+def dataCollect():
+    videoURL = str(input("Cole aqui a URL do vídeo que deseja baixar: "))
+    dirPath = str(input("Cole aqui o endereço da pasta onde deseja salvar: "))
+    if dirPath == "":
+        dirPath = 'videos'
+    verificaCaminho(dirPath)
+    
+    collectedData = [videoURL, dirPath]
+    return collectedData
 
-# Coletando dados da URL inserida
-yt = YouTube(link)
-result = [yt.title, yt.author]
-print(f'{result[0]} by {result[1]}')
+# Recebendo as informações do vídeo e baixando o vídeo
+def downloadVideo(videoURL, dirPath):
+    yt = YouTube(videoURL)
+    videoInfo = [yt.title, yt.author]
+    print(f'{videoInfo[0]} | {videoInfo[1]}')
+    
+    ytDownload = yt.streams.get_highest_resolution()
+    print("Baixando...")
+    ytDownload.download(dirPath)
+    print("Vídeo baixado com sucesso!")
+    
+# Imprimindo o título
+titlePrint()
 
-# Baixando vídeo e salvando na pasta "videos"
-ys = yt.streams.get_highest_resolution()
-print("Baixando...")
-ys.download(caminho)
-print("Video baixado com sucesso!")
+# Coletando os dados do vídeo e o diretório
+videoUrl, dirPath = dataCollect()
 
-# Abrindo a pasta onde foi salvo o vídeo
-openDir(caminho)
+# Fazendo o download do vídeo
+downloadVideo(videoUrl, dirPath)
+
+# Abrindo o diretório
+openDir(dirPath)
